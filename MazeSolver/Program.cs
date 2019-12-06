@@ -65,7 +65,7 @@ namespace MazeSolver
             maze.Solve();
             Console.WriteLine("The path was saved to Result.txt. Thanks for playing :)");
 
-            string result = directory + @"\Result.txt";
+            string result = directory + @"\Log.txt";
 
             //creating Result.txt file
             string mazePrint = "";
